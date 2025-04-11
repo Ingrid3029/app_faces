@@ -11,7 +11,7 @@ import pathlib
 
 # Set the path of the input folder
 
-dataset = "https://drive.google.com/uc?export=download&id=1k72d4iTnFDOI1jVO2Wa1wqicD7NrhwdM"
+dataset = "https://drive.google.com/uc?export=download&id=1ihP7CYAQzPWOlgksVwZ2gOmv7YBgkENK"
 directory = tf.keras.utils.get_file('fotos', origin=dataset, untar=True)
 data = pathlib.Path(directory)
 
