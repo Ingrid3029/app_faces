@@ -12,7 +12,7 @@ import pathlib
 # Set the path of the input folder
 
 dataset = "https://drive.google.com/file/d/1k72d4iTnFDOI1jVO2Wa1wqicD7NrhwdM/view?usp=sharing"
-directory = tf.keras.utils.get_file('caras', origin=dataset, untar=True)
+directory = tf.keras.utils.get_file('fotos', origin=dataset, untar=True)
 data = pathlib.Path(directory)
 
 #print(folders)
